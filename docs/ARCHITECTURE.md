@@ -211,7 +211,6 @@ assets/icon.svg
 docs/ARCHITECTURE.md
 README.md
 CHANGELOG.md
-.github/workflows/ci.yml (Node 22, npm test)
 LICENSE (Apache-2.0)
 package.json (zero dependencies; Node >= 22 for type-stripping)
 ```

@@ -44,7 +44,10 @@ Added:
 - Benchmark skeleton (`tests/bench/`): fixed 5-task set + runner with
   pass rate, tool-call accuracy, and step counts. Mock mode validates the
   pipeline; `--real` with `DEEPSEEK_API_KEY` measures DeepSeek for real.
-- CI: `.github/workflows/ci.yml` runs `npm test` on Node 22.
+- CI workflow is pending, not shipped: the push token lacks the `workflow`
+  scope, so `.github/workflows/ci.yml` could not be pushed with this
+  release. Adding it via the GitHub web UI (or a token with workflow
+  scope) is the only leftover item.
 
 Changed:
 - `npm test` now runs 14 test files (138 checks, all offline, no keys).
